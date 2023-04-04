@@ -2,7 +2,7 @@
 
 ### [View the todo app here 🚀🚀🚀](https://crud-application-delta.vercel.app/)
 
-## Font-Awesome CDN 
+## Font-Awesome CDN .
 ```
 <link
    rel="stylesheet"
