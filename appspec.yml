@@ -2,11 +2,8 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user
+    destination: /var/www/html/
 hooks:
-  AfterInstall:
-    - location: pullimage.sh
-      timeout: 100
   ApplicationStart:
     - location: applicationstart.sh
       timeout: 100
